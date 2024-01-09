@@ -1,7 +1,7 @@
 let Calculadora = {
     numbers: {
-        receivedValue: 0,//document.getElementById("numOne").value,
-        newValue: 0//document.getElementById("numTwo").value
+        receivedValue: 0,
+        newValue: 0
     },
     refIds:{
         soma: document.getElementById('sum'),
@@ -17,27 +17,27 @@ let Calculadora = {
     sum(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) + Number(newValue))
+        alert((Math.round((Number(receivedValue) + Number(newValue))*100) / 100))
     },
     subt(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) - Number(newValue))
+        alert(Math.round((Number(receivedValue) - Number(newValue))*100)/100)
     },
     multi(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) * Number(newValue))
+        alert(Math.round((Number(receivedValue) * Number(newValue))*100)/100)
     },
     divis(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) / Number(newValue))
+        alert(Math.round((Number(receivedValue) / Number(newValue))*100)/100)
     },
     rootOf(receivedValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Math.sqrt(Number(receivedValue)))
+        alert(Math.round(Math.sqrt(Number(receivedValue))*100)/100)
     },
     modul(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
@@ -47,12 +47,12 @@ let Calculadora = {
     potTwo(receivedValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) ** 2)
+        alert(Math.round((Number(receivedValue) ** 2)*100)/100)
     },
     generalPot(receivedValue, newValue){
         receivedValue = document.getElementById("numOne").value
         newValue = document.getElementById("numTwo").value
-        alert(Number(receivedValue) ** Number(newValue))
+        alert(Math.round((Number(receivedValue) ** Number(newValue))*100)/100)
     }
 }
 
