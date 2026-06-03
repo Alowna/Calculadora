@@ -1,0 +1,23 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora poggers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alowna/Calculadora.git"
+  },
+  "keywords": [
+    "calculadora",
+    "portfolio"
+  ],
+  "author": "Alowna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alowna/Calculadora/issues"
+  },
+  "homepage": "https://github.com/Alowna/Calculadora#readme"
+}
