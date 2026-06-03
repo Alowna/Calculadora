@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Alowna/Calculadora/issues"
   },
-  "homepage": "https://github.com/Alowna/Calculadora#readme"
+  "homepage": "https://github.com/Alowna/Calculadora#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
 }
