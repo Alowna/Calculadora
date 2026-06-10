@@ -1,2 +1,5 @@
 # Biblioteca responsável pela interface gráfica híbrida (HTML5/JS + Python)
 pywebview>=5.0.0
+pyqt6
+PyQt6-WebEngine
+qtpy

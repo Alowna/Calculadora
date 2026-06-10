@@ -2,7 +2,6 @@ import webview
 import os
 import sys
 import platform
-import gi
 
 def get_caminho_raiz():
     """
@@ -50,7 +49,7 @@ def main():
     )
 
     api._window = window
-    webview.start(debug=False)
+    webview.start(debug=False, gui='qt')
 
 if __name__ == '__main__':
     main()
