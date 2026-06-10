@@ -17,7 +17,7 @@ O aplicativo utiliza o motor de renderização nativo do sistema operacional.
 
 > 💡 Requisitos: Python 3, Node.js e um ambiente virtual (`venv`) ativo.
 
-### 1. Instalar dependências Python e JS
+### Instalar dependências Python e JS e executar app.py
 
 ```bash
 cd vendor
