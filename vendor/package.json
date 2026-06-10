@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Alowna/Calculadora#readme",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   }
 }
