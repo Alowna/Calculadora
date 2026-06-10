@@ -1,38 +1,30 @@
 # 🧮 Calculadora Desktop - Instalação Local
 
-Este repositório contém o código-fonte de uma calculadora desktop híbrida construída com **Python (PyWebView)** no backend e **HTML5/Bootstrap 5** no frontend. 
-
-Siga as instruções abaixo para instalar as dependências de pacotes e executar o projeto em sua máquina.
+Este projeto é uma calculadora desktop híbrida construída com **Python (PyWebView)** no backend e **HTML5 + Bootstrap 5** no frontend.
 
 ---
 
 ## 🖥️ Compatibilidade e Requisitos de Sistema
 
-O aplicativo utiliza o motor de renderização nativo do sistema operacional para desenhar a interface web. Certifique-se de que seu ambiente possui o suporte necessário:
+O aplicativo utiliza o motor de renderização nativo do sistema operacional.
 
-* **Windows:** Compatível com **Windows 10/11** (Utiliza o motor nativo do Microsoft Edge WebView2).
-* **Linux:** Compatível com distribuições baseadas em **Gnome/GTK3** (Ubuntu, Debian, Mint, etc.).
+- **Windows:** Compatível com Windows 10/11 (usa Microsoft Edge WebView2 Runtime)
+- **Linux:** Requer GTK3 e WebKitGTK instalados no sistema (ex: Ubuntu, Debian, Mint). Dependências podem variar entre distribuições.
 
 ---
 
-## 🚀 Como Instalar e Rodar
+## 🚀 Como Instalar e Executar
 
-> 💡 **Nota:** Os passos abaixo assumem que você já possui o **Python 3** e o **Node.js** instalados, e que já está com o seu **ambiente virtual (venv) criado e devidamente ativado** no terminal.
+> 💡 Requisitos: Python 3, Node.js e um ambiente virtual (`venv`) ativo.
 
-### 1. Instalar as Dependências do Projeto
-Navegue até a pasta `vendor/` para instalar simultaneamente os pacotes de backend (Python) e frontend (NPM):
+### 1. Instalar dependências Python e JS
 
 ```bash
-# Entre na pasta de configurações
 cd vendor
 
-# Instale a biblioteca pywebview no seu ambiente virtual
 pip install -r requirements.txt
-
-# Instale os pacotes visuais (Bootstrap e Bootstrap Icons)
 npm install
 
-# Volte para a raiz do projeto
 cd ..
 
 # Execute o backend da aplicação
